@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpOpen.Net", "SharpOpen.Net\SharpOpen.Net.csproj", "{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpOpen.Net.TcpSoftRouter", "SharpOpen.Net.TcpSoftRouter\SharpOpen.Net.TcpSoftRouter.csproj", "{A44093BF-ED90-4977-B4D9-808BD52E887A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F59D9DC2-15D0-4541-98A3-6BF90A9D00E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{943A64AE-EE85-43A4-A6C8-BD8B4DCCFBB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B2F32EE8-47ED-494B-9C73-94A6621A1152}"
+	ProjectSection(SolutionItems) = preProject
+		StatusCodes.txt = StatusCodes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{FC6A9702-19B5-47AB-A555-3AAD0A8796C7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs05.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Setup\\Setup.vdproj
+		SccProjectTopLevelParentUniqueName1 = SharpOpen.sln
+		SccProjectName1 = Setup
+		SccLocalPath1 = Setup
+		SccProjectUniqueName2 = SharpOpen.Net.TcpSoftRouter\\SharpOpen.Net.TcpSoftRouter.csproj
+		SccProjectTopLevelParentUniqueName2 = SharpOpen.sln
+		SccProjectName2 = SharpOpen.Net.TcpSoftRouter
+		SccLocalPath2 = SharpOpen.Net.TcpSoftRouter
+		SccProjectUniqueName3 = SharpOpen.Net\\SharpOpen.Net.csproj
+		SccProjectTopLevelParentUniqueName3 = SharpOpen.sln
+		SccProjectName3 = SharpOpen.Net
+		SccLocalPath3 = SharpOpen.Net
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44093BF-ED90-4977-B4D9-808BD52E887A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44093BF-ED90-4977-B4D9-808BD52E887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44093BF-ED90-4977-B4D9-808BD52E887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44093BF-ED90-4977-B4D9-808BD52E887A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59D9DC2-15D0-4541-98A3-6BF90A9D00E2}.Debug|Any CPU.ActiveCfg = Debug
+		{F59D9DC2-15D0-4541-98A3-6BF90A9D00E2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A44093BF-ED90-4977-B4D9-808BD52E887A} = {943A64AE-EE85-43A4-A6C8-BD8B4DCCFBB6}
+		{22EE396B-C5DC-49A8-ADC6-CFD757CAB1D4} = {943A64AE-EE85-43A4-A6C8-BD8B4DCCFBB6}
+		{F59D9DC2-15D0-4541-98A3-6BF90A9D00E2} = {FC6A9702-19B5-47AB-A555-3AAD0A8796C7}
+	EndGlobalSection
+EndGlobal

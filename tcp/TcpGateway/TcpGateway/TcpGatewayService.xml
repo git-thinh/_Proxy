@@ -1,0 +1,23 @@
+<TcpGatewayServiceConfiguration>
+
+ <parm name="logFile" value="TcpGatewayLog.txt"/>
+    <!-- The name of the log file -->
+
+ <parm name="logLevel" value="3"/>
+    <!-- A value between 0 and 9. 0 = log only fatal errors, 9 = log detailed debug messages -->
+
+ <gateway portNo1="1001" portNo2="1002"/>
+    <!-- Defines a gateway between the ports 1001 and 1002. -->
+
+ <gateway portNo1="1003" portNo2="1004"/>
+    <!-- Defines a gateway between the ports 1003 and 1004. -->
+
+ <gateway portNo1="2000" portNo2="2005" multiply="5"/>
+    <!-- Defines 5 gateways for the port pairs 2000/2005, 2001/2006 ... 2004/2009 -->
+
+ <gateway portNo1="3000" portNo2="3001" multiply="5"/>
+    <!-- Defines 5 gateways for the port pairs 3000/3001, 3002/3003 ... 3008/3009 -->
+    <!-- Note that in this case (when portNo1 and portNo2 are consecutive), the   -->
+    <!-- port numbers are incremented in steps of 2.                              -->
+
+</TcpGatewayServiceConfiguration>

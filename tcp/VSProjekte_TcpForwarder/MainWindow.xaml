@@ -1,0 +1,52 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" x:Class="TcpForwarder.MainWindow"
+        Title="TCP Forwarder" Height="642.55" Width="1270" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Closed="Window_Closed" TextOptions.TextFormattingMode="Display">
+    <Grid>
+        <Grid Margin="0,97,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <RichTextBox x:Name="logClient" Margin="10,25,10,10" VerticalScrollBarVisibility="Visible" IsReadOnly="True">
+                <FlowDocument/>
+            </RichTextBox>
+            <RichTextBox x:Name="logServer" Grid.Column="1" Margin="10,25,10,10" VerticalScrollBarVisibility="Visible" IsReadOnly="True">
+                <FlowDocument/>
+            </RichTextBox>
+            <Button Content="Clear" Margin="0,0,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="76" Click="buttonClearClient_Click"/>
+            <Button Content="Clear" Margin="0,0,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="76" Grid.Column="1" Click="buttonClearServer_Click"/>
+            <CheckBox x:Name="checkPauseClient" Content="Pause" Margin="0,3,345,0" VerticalAlignment="Top" IsEnabled="False" Checked="checkPauseClient_Checked" Unchecked="checkPauseClient_Checked" HorizontalAlignment="Right" Width="51"/>
+            <CheckBox x:Name="checkPauseServer" Content="Pause" Margin="0,3,345,0" VerticalAlignment="Top" Grid.Column="1" IsEnabled="False" Checked="checkPauseServer_Checked" Unchecked="checkPauseServer_Checked" HorizontalAlignment="Right" Width="51"/>
+            <WindowsFormsHost x:Name="formsHost1" Height="23" Margin="0,0,124,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="60">
+                <Forms:NumericUpDown/>
+            </WindowsFormsHost>
+            <WindowsFormsHost x:Name="formsHost2" Height="23" Margin="0,0,124,0" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Right" Width="60">
+                <Forms:NumericUpDown/>
+            </WindowsFormsHost>
+            <CheckBox x:Name="checkLimitSpeedClient" Content="Limit Speed (KiB/s):" Margin="0,3,201,0" VerticalAlignment="Top" IsEnabled="False" Checked="checkLimitSpeedClient_Checked" Unchecked="checkLimitSpeedClient_Checked" HorizontalAlignment="Right" Width="123"/>
+            <CheckBox x:Name="checkLimitSpeedServer" Content="Limit Speed (KiB/s):" Margin="0,3,201,0" VerticalAlignment="Top" Grid.Column="1" IsEnabled="False" Checked="checkLimitSpeedServer_Checked" Unchecked="checkLimitSpeedServer_Checked" HorizontalAlignment="Right" Width="123"/>
+            <Label Content="Server ⇒ Client:" Grid.Column="1" HorizontalAlignment="Left" Margin="10,-3,0,0" VerticalAlignment="Top"/>
+            <Label Content="Client ⇒ Server:" HorizontalAlignment="Left" Margin="10,-3,0,0" VerticalAlignment="Top"/>
+
+        </Grid>
+        <Label Content="Remote host:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textHost" HorizontalAlignment="Left" Margin="95,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Text="[localhost-random]"/>
+        <Label Content="Remote port:" HorizontalAlignment="Left" Margin="259,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textPortRemote" HorizontalAlignment="Left" Margin="343,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="8080"/>
+        <Label Content="Local port:" HorizontalAlignment="Left" Margin="424,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textPortLocal" HorizontalAlignment="Left" Margin="494,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="8081"/>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Right" Margin="0,13,10,0" VerticalAlignment="Top" Width="60" Click="startButton_Click"/>
+        <Label x:Name="labelConnectionsCount" Content="xx Connections." Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left"/>
+        <Label x:Name="labelUlSpeed" Content="UL: xxx,xx MiB/s" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelDlSpeed" Content="DL: xxx,xx MiB/s" HorizontalAlignment="Left" Margin="126,67,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkLogging" Content="Log control events" HorizontalAlignment="Left" Margin="177,47,0,0" VerticalAlignment="Top" Checked="checkLogging_Changed" Unchecked="checkLogging_Changed"/>
+        <CheckBox x:Name="checkLogDataEvents" Content="Log data events" HorizontalAlignment="Left" Margin="318,47,0,0" VerticalAlignment="Top" Checked="checkLogDataEvents_Checked" Unchecked="checkLogDataEvents_Checked" IsEnabled="False"/>
+        <CheckBox x:Name="checkShowDataContents" Content="Log data contents" HorizontalAlignment="Left" Margin="449,47,0,0" VerticalAlignment="Top" Checked="checkShowDataContents_CheckedUnchecked" Unchecked="checkShowDataContents_CheckedUnchecked" IsEnabled="False"/>
+        <CheckBox x:Name="checkUseSsl" Content="Use SSL/TLS for remote connection" HorizontalAlignment="Left" Margin="582,3,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked"/>
+        <CheckBox x:Name="checkLogToFile" Content="Log data contents to files (current dir)" Margin="0,16,84,0" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <CheckBox x:Name="checkUseServerSsl" Content="Provide SSL/TLS for local connection" HorizontalAlignment="Left" Margin="582,23,0,0" VerticalAlignment="Top" Checked="checkUseServerSsl_Checked" Unchecked="checkUseServerSsl_Checked"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+
+TcpGateway-C# Changes
+---------------------
+
+2010-10-15 chdh
+- First public release under the GPL V3 (or later) License.
+
+2010-05-14 chdh
+- Support for multiple gateways added,
+- Logging improved.
+- New test program added: TcpStressTest.cs.
+
+2009-09-20 chdh (Christian d'Heureuse)
+- Initial version created.

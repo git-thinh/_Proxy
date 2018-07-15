@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Example configuration file when running in console or service mode.
+     To use this file, copy it to "configuration.xml".
+     
+     In console or service mode, the TCP Connection Forwarder will not show a GUI, but run in background and
+     read the configuration from "configuration.xml" in the same directory where the EXE is placed.
+     
+     
+     The following section will assume you run the given commands in the directory where
+     TcpForwarder.exe is placed.
+     
+     To run the forwarder in console mode, run the following command:
+     "TcpForwarder.exe" -console
+     
+     To run the forwarder as a service, run the following command with administrative privileges
+     to install it as "TcpForwarderService":
+     "%SystemRoot%\Microsoft.Net\Framework\v4.0.30319\InstallUtil.exe" "TcpForwarder.exe"
+     
+     To uninstall the service, run the following command with administrative privileges:
+     "%SystemRoot%\Microsoft.Net\Framework\v4.0.30319\InstallUtil.exe" /u "TcpForwarder.exe"
+     
+-->
+<!--
+
+     The root XML element of the configuration file is <TcpForwarderConfiguration> which can contain
+     <Forwarder> elements.
+     
+     Each <Forwarder> element has the following attributes:
+     
+     remoteHost:               Specifies the hostname that the forwarder will connect to when receiving incoming connections. The
+                               forwarder will first try to connect to the host using IPv6, and if it fails, it will
+                               try to connect using IPv4.
+                               Note that there is a special hostname, "[localhost-random]" for redirecting connections to
+                               localhost - see the note below.
+                               
+     remotePort:               Specifies the port that the forwarder will connect to.
+          
+     remoteSslHostname:        (Optional) Specifies the hostname which the remote SSL Certificate will be validated against.
+                               If this attribute is specified, the forwarder will use SSL/TLS for the remote connection and authenticate
+                               the server.
+     
+     
+     localPort:                Specifies the port on which the forwarder will listen for incoming connections.
+                               The forwarder will use a dual-mode socket to bind both on
+                               "0.0.0.0" (IPv4) and "::" (IPv6).
+     
+     localSslCertFingerprint:  (Optional) Specifies the fingerprint of the SSL certificate to use for local (incoming) connections.
+                               The forwarder will first use the local user's certificate store to get the certificate,
+                               and then the local machine's certificate store if it couldn't find it.
+                               If this attribute is specified, the forwarder will use SSL/TLS for the local connection.
+                               
+                               Note: If you use a certificate from the local machine's certificate store, you might need
+                               to run this program with administrative rights.
+
+
+     maxConcurrentConnections: (Optional) Specifies the maximum number of concurrent connections that the forwarder will accept.
+                               When we get more incoming connections, they are queued but not processed until the
+                               existing connections go below that number (the backlog queue is currently set to 1000).
+                               The default value is 10000.
+     
+     
+-->
+<!--
+  Note: When configuring the forwarder to "localhost" as remoteHost, you can specify "[localhost-random]" instead when using IPv4 to allow to use
+  random addresses in the range 127.0.0.1-127.255.255.254 for binding and connecting.
+  
+  This ensures that if a lot of connections are opened and closed in a very short time, that we do not
+  get errors that an address+port has been used multiple times when opening new connections (as the TCP/IP standard
+  defines that between consecutive connections using the same combination of a specific local endpoint (adr+port) and a specific remote endpoint (adr+port)
+  some time must pass, to minimize data corruption).
+  
+  If we use random addresses in the above range we are minimizing the risk of using the same remote and local endpoints again in a short time interval.
+  -->
+<TcpForwarderConfiguration>
+  <Forwarder remoteHost="www.google.de" remotePort="80" localPort="8081" />
+  <Forwarder maxConcurrentConnections="1000" remoteHost="www.microsoft.com" remotePort="80" localPort="8082" />
+  <!-- Example when using SSL as server:
+    <Forwarder remoteHost="www.microsoft.com" remotePort="80" localPort="8082" localSslCertFingerprint="xxxx" />
+  -->
+</TcpForwarderConfiguration>

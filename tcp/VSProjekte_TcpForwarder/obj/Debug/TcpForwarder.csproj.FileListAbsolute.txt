@@ -1,0 +1,14 @@
+F:\MrThinh\Network\VSProjekte_TcpForwarder\bin\Debug\TcpForwarder.exe.config
+F:\MrThinh\Network\VSProjekte_TcpForwarder\bin\Debug\configuration_example.xml
+F:\MrThinh\Network\VSProjekte_TcpForwarder\bin\Debug\TcpForwarder.exe
+F:\MrThinh\Network\VSProjekte_TcpForwarder\bin\Debug\TcpForwarder.pdb
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.csprojResolveAssemblyReference.cache
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\MainWindow.baml
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\MainWindow.g.cs
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\App.g.cs
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder_MarkupCompile.cache
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.g.resources
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.Properties.Resources.resources
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.csproj.GenerateResource.Cache
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.exe
+F:\MrThinh\Network\VSProjekte_TcpForwarder\obj\Debug\TcpForwarder.pdb

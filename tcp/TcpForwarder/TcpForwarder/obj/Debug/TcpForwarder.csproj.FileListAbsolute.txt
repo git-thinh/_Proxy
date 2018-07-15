@@ -1,0 +1,10 @@
+D:\Tunneling\TcpForwarder\TcpForwarder\bin\Debug\TcpForwarder.exe
+D:\Tunneling\TcpForwarder\TcpForwarder\bin\Debug\TcpForwarder.pdb
+D:\Tunneling\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.csprojResolveAssemblyReference.cache
+D:\Tunneling\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.exe
+D:\Tunneling\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.pdb
+F:\MrThinh\Network\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.exe
+F:\MrThinh\Network\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.pdb
+F:\MrThinh\Network\TcpForwarder\TcpForwarder\bin\Debug\TcpForwarder.exe
+F:\MrThinh\Network\TcpForwarder\TcpForwarder\bin\Debug\TcpForwarder.pdb
+F:\MrThinh\Network\TcpForwarder\TcpForwarder\obj\Debug\TcpForwarder.csprojResolveAssemblyReference.cache

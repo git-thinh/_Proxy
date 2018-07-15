@@ -1,0 +1,6 @@
+F:\MrThinh\Network\granados200 (1)\src\obj\Debug\Granados.csprojResolveAssemblyReference.cache
+F:\MrThinh\Network\granados200 (1)\src\obj\Debug\Granados.strings.resources
+F:\MrThinh\Network\granados200 (1)\src\obj\Debug\Granados.csproj.GenerateResource.Cache
+H:\Code\_Network\tcp\granados200 (1)\src\obj\Debug\Granados.csprojResolveAssemblyReference.cache
+H:\Code\_Network\tcp\granados200 (1)\src\obj\Debug\Granados.strings.resources
+H:\Code\_Network\tcp\granados200 (1)\src\obj\Debug\Granados.csproj.GenerateResource.Cache

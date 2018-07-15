@@ -1,0 +1,11 @@
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\bin\Debug\SharpOpen.Net.TcpSoftRouter.exe.config
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\bin\Debug\SharpOpen.Net.TcpSoftRouter.exe
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\bin\Debug\SharpOpen.Net.TcpSoftRouter.pdb
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\bin\Debug\SharpOpen.Net.dll
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\bin\Debug\SharpOpen.Net.pdb
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\ResolveAssemblyReference.cache
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\SharpOpen.Net.TcpSoftRouter.TcpSoftRouter.resources
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\SharpOpen.Net.TcpSoftRouter.TcpSoftRouterResources.resources
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\SharpOpen.Net.TcpSoftRouter.csproj.GenerateResource.Cache
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\SharpOpen.Net.TcpSoftRouter.exe
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net.TcpSoftRouter\obj\Debug\SharpOpen.Net.TcpSoftRouter.pdb

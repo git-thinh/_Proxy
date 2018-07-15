@@ -1,0 +1,5 @@
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net\bin\Debug\SharpOpen.Net.dll
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net\bin\Debug\SharpOpen.Net.pdb
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net\obj\Debug\ResolveAssemblyReference.cache
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net\obj\Debug\SharpOpen.Net.dll
+F:\MrThinh\Network\tcpsoftrouter-81799\SharpOpen.Net\obj\Debug\SharpOpen.Net.pdb
