@@ -1,0 +1,155 @@
+MENU Hide My Ass
+SIGN IN
+ 
+FREE IP:PORT PROXY LISTS
+
+We offer the largest real-time database of free working public proxies. Check it out below – or try our Premium service. For a one-off registration fee, we’ll send the entire list to your inbox every day in raw .txt format.
+REGISTER HERE FOR OUR PREMIUM SERVICE
+Our Premium service emails you a daily attachment of our entire public proxy database in a raw .txt format, making downloading and using public proxy servers much easier. Only $24.95 for life!
+
+
+ 
+Use a proxy server to mask your true IP address and surf anonymously online
+Public proxy servers can be used with web browsers and other apps that support proxy use
+Our proxy lists are checked in real time with auto-updatable results 24/7
+Sortable by PlanetLab/Codden, so Planet Lab proxies can be easily distinguished
+Sortable by speed, with the fastest proxies listed first
+Sortable by country
+FREE IP:PORT PROXY LISTS
+
+PROXY COUNTRY
+  ALL COUNTRIES
+Sort by countSort by namePORTS
+  ALL PORTS
+
+TIP: Enter specific ports in the above box. Separate more than one port by a comma (8080, 80,443 ...). A maximum of 20 ports allowed.
+PROTOCOL
+HTTP
+HTTPS
+SOCKS4/5
+ANONYMITY LEVEL
+NONE
+LOW
+MEDIUM
+HIGH
+HIGH +KA
+PLANETLAB
+  INCLUDE
+SPEED
+SLOW
+MEDIUM
+FAST
+CONNECTION TIME
+SLOW
+MEDIUM
+FAST
+   UPDATE RESULTS
+Last Update	IP Address	Port	Country	Speed	Connection Time	Type	Anon
+23secs	 40.113.118.174	 8130	  USA	
+HTTPS	 High +KA
+23secs	 112.5.220.199	 83	  China	
+HTTP	 High +KA
+23secs	 117.135.250.133	 8081	  China	
+HTTP	 High +KA
+24secs	 58.49.165.172	 8118	  China	
+HTTP	 High +KA
+24secs	 221.181.8.214	 8090	  China	
+HTTP	 High +KA
+24secs	 117.135.250.134	 8080	  China	
+HTTP	 High +KA
+24secs	 117.135.250.133	 8083	  China	
+HTTP	 High +KA
+1min	 202.117.58.229	 808	  China	
+HTTPS	 High +KA
+1min	 117.135.250.134	 8081	  China	
+HTTP	 High +KA
+1min	 117.136.234.8	 82	  China	
+HTTP	 High +KA
+2mins	 213.118.193.51	 80	  Belgium	
+HTTP	 High +KA
+2mins	 106.185.28.155	 80	  Japan	
+HTTP	 High +KA
+2mins	 117.135.250.133	 8080	  China	
+HTTP	 High +KA
+2mins	 117.136.234.8	 83	  China	
+HTTP	 High +KA
+2mins	 117.135.250.134	 8083	  China	
+HTTP	 High +KA
+2mins	 117.135.250.133	 8082	  China	
+HTTP	 High +KA
+2mins	 123.56.110.227	 8080	  China	
+HTTP	 High +KA
+4mins	 218.106.205.145	 8080	  China	
+HTTP	 High +KA
+4mins	 128.199.223.197	 8080	  UK	
+HTTPS	 High +KA
+5mins	 116.231.213.178	 8118	  China	
+HTTP	 High +KA
+7mins	 82.139.245.241	 8080	  Germany	
+HTTP	 High
+8mins	 111.23.6.156	 80	  China	
+HTTP	 High +KA
+8mins	 195.8.244.233	 8080	  Germany	
+HTTP	 High
+9mins	 195.8.236.241	 8080	  Germany	
+HTTPS	 High +KA
+10mins	 92.222.108.111	 3128	  Germany	
+HTTPS	 High +KA
+10mins	 92.222.154.59	 3128	  Germany	
+HTTPS	 High +KA
+19mins	 213.197.43.122	 80	  Netherlands	
+HTTP	 High +KA
+19mins	 101.81.25.177	 8118	  China	
+HTTP	 High +KA
+22mins	 114.217.102.244	 808	  China	
+HTTP	 High +KA
+24mins	 46.236.194.1	 8080	  Germany	
+HTTP	 High
+29mins	 82.139.224.241	 8080	  Germany	
+HTTP	 High
+36mins	 92.222.154.47	 3128	  Germany	
+HTTPS	 High +KA
+40mins	 88.13.168.126	 8080	  Spain	
+HTTP	 High +KA
+52mins	 58.18.50.10	 3128	  China	
+HTTPS	 High +KA
+1h 28mins	 91.216.72.209	 8080	  Russia	
+HTTPS	 High +KA
+1h 35mins	 74.208.101.71	 3128	  USA	
+HTTPS	 High +KA
+1h 35mins	 92.222.153.214	 3128	  Germany	
+HTTPS	 High +KA
+1h 52mins	 115.186.10.1	 8080	  Pakistan	
+HTTPS	 High +KA
+1h 54mins	 137.117.227.221	 3128	  Canada	
+HTTP	 High
+2h 26mins	 119.188.115.28	 8080	  China	
+HTTP	 High +KA
+2h 36mins	 148.223.57.45	 3389	  Mexico	
+socks4/5	 High +KA
+2h 50mins	 101.231.249.202	 1080	  China	
+socks4/5	 High +KA
+3h 13mins	 212.47.229.71	 9003	  USA	
+socks4/5	 High +KA
+3h 17mins	 218.3.48.18	 1080	  China	
+socks4/5	 High +KA
+3h 24mins	 189.219.85.80	 59531	  Mexico	
+socks4/5	 High +KA
+3h 26mins	 166.62.97.238	 18628	  USA	
+socks4/5	 High +KA
+3h 28mins	 122.96.59.104	 843	  China	
+HTTP	 High +KA
+3h 28mins	 31.43.17.93	 3128	  Ukraine	
+HTTPS	 High +KA
+3h 29mins	 189.219.97.58	 56545	  Mexico	
+socks4/5	 High +KA
+3h 29mins	 189.218.41.102	 38076	  Mexico	
+socks4/5	 High +KA
+1
+2
+3
+
+Privacy Terms & Conditions
+
+Copyright ©2005-2014 Privax Ltd. All Rights Reserved.
+ 
